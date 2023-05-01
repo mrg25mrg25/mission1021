@@ -4,7 +4,7 @@ const index = () => {
   return (
     <>
     <h1>
-      new
+      new item
     </h1>
     </>
   )
