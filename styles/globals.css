@@ -1,27 +1,98 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-transform: capitalize;
+}
+/* nav  */
+h1, h2{
+  overflow-y: hidden;
+}
+@media screen and (max-width:600px) {  
+.topSection h1{
+  width: fit-content;
+ margin-left: -3px;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+}
+#name{
+  width: fit-content;
+  padding: 0 2rem;
+}
+#icon{
+  margin-right: 1.3rem;
+}
+} 
+#e_pd{
+  padding: 7px 1.7rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* details  */
+.meth{ 
+width: 300px;
+height: 300px;
+}
+.take{
+  width: 100%;
+  height: 100%;
+}
+/* cook/contact  */
+
+#top{
+  width: 80%;
+ background-color: #ddd;
+ position: relative;
+background-color: #ddd;
+}
+#bottom{
+  border: 7px solid #ddd;
+}
+.push{
+  padding: 5rem 0;
+}
+.push label{
+  padding: 1rem 0;
+}
+.email{
+  margin-left: 50px;
+  padding: 9px 18px;
+}
+.message{
+  padding: 18px 9px;
+  margin-left: 25px;
+}
+@media screen and (max-width:650px) {
+  .email{
+      margin-left: 46px;
+      padding: 9px 8px;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media screen and (max-width:462px) {
+ #it{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+margin: auto;
+ }
+ .email{
+  margin-left: 20px;
+  padding: 9px 8px;
+  
 }
+}
+
+@media screen and (max-width:404px) {
+  .email{
+   margin-left: 0;
+   padding: 9px 5px;  
+}
+.message{
+  margin-left: 0;
+
+}
+}
+/* jesse  */
+
+
+
+
