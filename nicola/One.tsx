@@ -3,7 +3,7 @@ import React from 'react'
 const One = () => {
   return (
     <div>
-        <p>yeah lets cook bitch </p>
+        <p className='mt-5'>yeah lets cook bitch </p>
     </div>
   )
 }
