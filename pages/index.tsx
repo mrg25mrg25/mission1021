@@ -1,5 +1,6 @@
+import Section_one from '@/nicola/Section_one'
 import React from 'react'
-import Section_one from './nicola/Section_one'
+
 
 const index = () => {
   return (
