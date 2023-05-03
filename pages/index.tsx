@@ -1,12 +1,10 @@
 import React from 'react'
-
-import Top_docu from './nicola/Top_docu'
+import Section_one from './nicola/Section_one'
 
 const index = () => {
   return (
     <div>
-
-      <Top_docu/>
+    <Section_one/>
     </div>
   )
 }
