@@ -1,11 +1,10 @@
-
+import One from '@/nicola/One'
 import React from 'react'
-
 
 const index = () => {
   return (
     <div>
-    poooooooo J
+      <One/>
     </div>
   )
 }
