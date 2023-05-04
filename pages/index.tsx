@@ -1,10 +1,9 @@
-import One from '@/nicola/One'
 import React from 'react'
 
 const index = () => {
   return (
     <div>
-      <One/>
+      <h1 className='bg-blue-300'>yeah whatever</h1>
     </div>
   )
 }
